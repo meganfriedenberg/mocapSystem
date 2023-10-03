@@ -11,7 +11,7 @@ Motion capture system in OpenGL using quaternions and different interpolation sc
 - [Interpolator class](https://github.com/meganfriedenberg/mocapSystem/blob/main/mocapSolver/interpolator.cpp) Supports several different interpolation types: Linear Euler, Bezier Euler, Slerp Quaternion, Bezier Slerp Quaternion, with quaternion interpolation using De Casteljau's algorithm for Bezier splines.
 
 
-![GIF of Mocap system playing for dancing.](https://github.com/[meganfriedenberg]/[meganfriedenberg.github.io]/blob/[master]/images/mocap.gif?raw=true)   
+![GIF of Mocap system playing for dancing.](https://github.com/meganfriedenberg/mocapSystem/blob/main/images/mocap.gif?raw=true)   
 Green reflects my interpolation scheme which is Bezier Slerp Quaternion here, against the red ground truth.
 
 For better ease in understanding the aforemationed math equations used in [Interpolator](https://github.com/meganfriedenberg/mocapSystem/blob/main/mocapSolver/interpolator.cpp), take note of the following two diagrams.   

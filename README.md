@@ -17,7 +17,7 @@ Green reflects my interpolation scheme which is Bezier Slerp Quaternion here, ag
 For better ease in understanding the aforemationed math equations used in [Interpolator](https://github.com/meganfriedenberg/mocapSystem/blob/main/mocapSolver/interpolator.cpp), take note of the following two diagrams.   
       
 
-![Diagram showing De Casteljau's algorithm on a Bezier spline.](https://github.com/meganfriedenberg/mocapSystem/blob/main/images/DeCasteljau.JPG?raw=true)  
+![Diagram showing De Casteljau's algorithm on a Bezier spline.](https://github.com/meganfriedenberg/mocapSystem/blob/main/images/DeCastelJau.JPG?raw=true)  
 
 
 - Q0 = SLERP(P0, P1, t)
